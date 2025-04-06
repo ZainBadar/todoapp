@@ -1,0 +1,70 @@
+
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.serch{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 50px;
+    
+
+
+}
+.serch > input{
+    width: 400px;
+}
+
+.serch > button{
+    background: black;
+    color: white;
+    width: 80;
+    
+}
+
+.serch > button:hover{
+    background-color: black;
+    color: white;
+    width: 100px;
+    color: red;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.but button {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 120px;
+    border-radius: 10opx solid;
+    border: 5px solid;
+    border-color:rgb(121, 10, 136) ;
+}
+
+.but button:hover {
+    background-color: #2ead87; /* greenish */
+    color: white;
+    width: 150px; /* increase width on hover */
+    
+    
+    
+}
+.button1{
+    /* height: 30px; */
+    width: 400px;
+    transition: all 0.3s ease;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    /* margin-left: 100px; */
+    padding-left: 6px;
+    /* height: 10px; */
+}
